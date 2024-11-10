@@ -2,6 +2,8 @@ import 'package:asistencia_upeu/theme/AppTheme.dart';
 import 'package:asistencia_upeu/drawer/drawer_user_controller.dart';
 import 'package:asistencia_upeu/drawer/home_drawer.dart';
 import 'package:asistencia_upeu/ui/actividad/actividad_main.dart';
+import 'package:asistencia_upeu/ui/actividadb/actividad_main.dart';
+import 'package:asistencia_upeu/ui/actividadfire/actividad_main.dart';
 import 'package:asistencia_upeu/ui/help_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -59,7 +61,15 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
         setState(() {
           screenView = MainActividad();
         });
-      } else {
+      }else if (drawerIndex == DrawerIndex.Help) {
+        setState(() {
+          screenView = MainActividadB();
+        });
+      } else if (drawerIndex == DrawerIndex.Invite) {
+        setState(() {
+          screenView = MainActividadBFire();
+        });
+      }else {
         //do in your way......
       }
     }

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "521288364521",
+    "project_id": "asistenciaupeu-379d9",
+    "storage_bucket": "asistenciaupeu-379d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521288364521:android:215232c0000cc9188a9b78",
+        "android_client_info": {
+          "package_name": "pe.edu.upeu.asistencia_upeu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521288364521-3rne7vmau3elq30q4m4ok8sdpmpcjg6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.upeu.asistencia_upeu",
+            "certificate_hash": "2409f0662a04f08c6f10677b4ba7fd67761f33b6"
+          }
+        },
+        {
+          "client_id": "521288364521-clm7ld03dhtpnpkcujrnv92ql1cnh78n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjAhJXtRhZ487_qeQ5XdoqtvKTW1IEIKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521288364521-clm7ld03dhtpnpkcujrnv92ql1cnh78n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "521288364521-h29e9dho9l409q9on7elece8kpsqoi6e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.edu.upeu.asistenciaUpeu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

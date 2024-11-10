@@ -9,7 +9,7 @@ import 'package:retrofit/retrofit.dart';
 part 'usuario_api.g.dart';
 
 @RestApi(baseUrl: UrlApi.urlApix)
-abstract class UsuarioApi{
+abstract class UsuarioApi{ //davidmp@upeu.upeu.edu    Da123456*
 
   factory UsuarioApi(Dio dio, {String baseUrl})=_UsuarioApi;
 
